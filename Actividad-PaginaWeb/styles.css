@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+}
+
+.Baner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.navbar {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.showcase {
+    background: url('https://imagenes.20minutos.es/files/image_654_369/uploads/imagenes/2023/05/16/comida-rapida.jpeg') center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.showcase h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.showcase p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.Formulario {
+    max-width: 400px;
+    align-items: center;
+}
+
+.Formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #ff6347; /* Tomato */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e04400;
+}
+
+
+.lo-Baner {
+    text-align: center;
+}
+
+.titulo-Baner {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.menu {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 250px; 
+    margin: 0 15px 20px; 
+    box-sizing: border-box;
+    border: 2px solid #ff4500;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.item img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+.description {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff4500;
+}
